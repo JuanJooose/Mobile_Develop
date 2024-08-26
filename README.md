@@ -1,8 +1,6 @@
 <h1 align="center"> Resumen corto de los proyectos </h1>
 
--- Todos los proyectos serán y son desarrollados en: ```kotlin,
-Kotlin
-```
+-- Todos los proyectos serán y son desarrollados en: ```kotlin ```
 Para más eficiencia de trabajo, motivo de que estoy haciendo mis prácticas, asi que quiero agilizar los más rapido estas tareas.
 
 <h2> Tarea_1 </h2>
