@@ -1,4 +1,4 @@
-<h1 text="center"> Resumen corto de los proyectos </h1>
+<h1 align="center"> Resumen corto de los proyectos </h1>
 
 <h2> Tarea_1 </h2>
 
