@@ -1,6 +1,6 @@
 <h1 align="center"> Resumen corto de los proyectos </h1>
 
--- Todos los proyectos serán y son desarrollados en ```Kt, Kotlin``` para ams eficiencia de trabajo, motivo de que estoy haciendo mis prácticas, asi que quiero agilizar los más rapido estas tareas.
+-- Todos los proyectos serán y son desarrollados en ```js, Kotlin``` para ams eficiencia de trabajo, motivo de que estoy haciendo mis prácticas, asi que quiero agilizar los más rapido estas tareas.
 
 <h2> Tarea_1 </h2>
 
