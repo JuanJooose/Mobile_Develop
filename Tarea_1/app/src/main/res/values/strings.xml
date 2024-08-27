@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FirstStepsJava</string>
+    <string name="Text_FieldsUser">Username</string>
+    <string name="Text_FieldsPassword">Password</string>
+    <string name="Text_btnRegister">Login</string>
+    <string name="Text_ForgotPassword">Are you forgot password?</string>
+    <string name="Text_ErrorUsername">You may fill these field.</string>
+    <string name="Text_Title">Login</string>
+    <string name="Text_Title_Act2">Welcome!</string>
+    <string name="Text_Alarm">Turn Alarm</string>
+    <string name="Text_Security_Login">You should Login again.</string>
+</resources>
