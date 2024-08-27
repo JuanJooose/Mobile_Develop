@@ -7,3 +7,5 @@ Esta tarea contiene un inicio de sesión el cual tendra TextView, EditText, Imag
 
 Solamente se deberá de llenar el EditText Username, para hacer mas rápida e interactiva la actividad.
 
+Se utilizó el ciclo de Vida onStart en ambas Actividades/Vistas y el onRestart en Activity_Profile el cual simula que se puede esatr logueado solamente si la aplicacion está en primer plano.
+
