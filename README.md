@@ -10,7 +10,7 @@ Solamente se deberá de llenar el EditText Username, para hacer mas rápida e in
 Se utilizó el ciclo de Vida onStart en ambas Actividades/Vistas y el onRestart en Activity_Profile el cual simula que puede estar logueado solamente si la aplicacion está en primer plano.
 
 
-<h2 align="center">Tarea 2🈚</h2>
+<h2>Tarea 2🈚</h2>
 
 Este trabajo trae consigo la visualizacion de una "intro" cuando la aplicación se inicia por primera vez, también agrega una función de Intent la cual acciona una alarma, esta se activará 5 segundos después de presionarse el botón.
 
