@@ -1,1 +1,1 @@
-<h1 text="center">Tarea 2</h1>
+<h1 align="center">Tarea 2</h1>
