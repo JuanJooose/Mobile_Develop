@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/header_wave"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header_profile">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1sp"
+                android:orientation="vertical"
+                android:paddingVertical="10sp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="20dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image"
+                        android:layout_width="136dp"
+                        android:layout_height="96dp"
+                        android:src="@raw/profile"
+                        app:civ_border_color="@color/black"
+                        app:civ_border_width="1dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:theme="@style/flex_layout">
+
+                        <TextView
+                            android:id="@+id/textUser"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Text_FieldsUser"
+                            android:textAlignment="center">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/textVAge"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Text_FieldsUserAge"
+                            android:textAlignment="center">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/textVId"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Text_FieldsUserId"
+                            android:textAlignment="center">
+                        </TextView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="20sp"
+            android:orientation="vertical"
+            android:paddingTop="20sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical"
+                    android:theme="@style/flex_layout">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_cards_profile"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Text_Alarm"
+                            android:textAlignment="center"></TextView>
+
+                        <TextView
+                            android:id="@+id/txtVAlarm"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="This alarm turn on in 5s"></TextView>
+
+                        <Button
+                            android:id="@+id/btnTurnAlarm"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Press me"></Button>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
