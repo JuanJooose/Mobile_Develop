@@ -46,3 +46,38 @@ class Stundent(val promedio: Double, nombre: String, edad: Int) : Person(nombre,
 }
 
 ```
+
+**Animal - Perro**
+
+```kotlin,
+open class Animal(nombre: String) {
+
+    open fun hacerSonido(): String {
+
+        return "Hacer sonido";
+    }
+}
+
+class Perro(name: String) : Animal(name) {
+    override fun hacerSonido(): String {
+        return "Guau Guau!";
+    }
+}
+```
+
+**Vehiculo - Coche**
+```kotlin,
+open class Vehiculo (val marca: String, val modelo: String){
+
+}
+
+class Coche(marca: String, modelo: String, puertas: Int) : Vehiculo(marca, modelo) {
+
+    val puertas: Int = puertas;
+
+    fun informacionCoche(): String {
+        return "El vehículo de la marca: $marca \nmodelo: $modelo \ntiene: $puertas puertas"
+    }
+}
+
+```
