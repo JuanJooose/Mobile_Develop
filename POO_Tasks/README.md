@@ -3,7 +3,7 @@
 
 **Main**
 
-```kt,
+```csharp,
 
 val person: Person = Person("Juan José", 20);
     val rectangulo: Rectangle = Rectangle(13.4, 3.4);
