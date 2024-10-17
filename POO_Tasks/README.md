@@ -3,7 +3,7 @@
 
 **Main**
 
-```csharp,
+```kotlin,
 
 val person: Person = Person("Juan José", 20);
     val rectangulo: Rectangle = Rectangle(13.4, 3.4);
@@ -25,7 +25,7 @@ override fun onStart() {
 
 **Class Person - Student**
 
-```kt,
+```kotlin,
 
 open class Person(val nombre: String,val  edad: Int) {
     fun greeting(): String {
