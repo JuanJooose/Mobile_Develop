@@ -2,8 +2,8 @@
 
 <h2>Proyecto Almacenamiento de Inventario</h2>
 
-*Juan Jose Gil Arboleda*
-*Marcos Duque Jaramillo*
+*Juan Jose Gil Arboleda-*
+*Marcos Duque Jaramillo-*
 *Miguel Angel Cadena Rojas*
 
 
